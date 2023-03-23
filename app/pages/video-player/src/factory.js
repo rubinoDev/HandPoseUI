@@ -51,7 +51,8 @@ const factory = {
     return Controller.initialize({
       view: new View(),
       worker,
-      camera
+      camera,
+      videoUrl: `${rootPath}/assets/video.mp4}`
     })
   }
 }
